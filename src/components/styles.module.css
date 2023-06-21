@@ -1,0 +1,37 @@
+body {
+    color: white;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainContainer {
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    user-select: none;
+}
+.displayButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    color: black;
+    background-color: rgb(211, 211, 211);
+    padding: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.clickButton {
+    background-color: rgb(173, 173, 173);
+    padding: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.clickButton:active {
+    background-color: rgb(124, 124, 124);
+    transition: 0.3s;
+}
